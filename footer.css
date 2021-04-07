@@ -8,3 +8,27 @@ footer{
 footer a{
     color: inherit;
 }
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footer-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright{
+}
+
+@media only screen and (min-width: 768px){
+    footer input{
+        float: right;
+    }
+
+    .footer-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
