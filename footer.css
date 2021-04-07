@@ -1,0 +1,11 @@
+footer{
+    color: #555;
+    background: #cecece;
+    width: 100%;
+    padding: 10px;
+}
+
+footer a{
+    color: inherit;
+}
+
