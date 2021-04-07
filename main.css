@@ -16,6 +16,14 @@ h1{
     font-size: 15px;
 }
 
+h3 {
+    font-family: Lato;
+    line-height: 18px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+}
+
 h4{
     font-family: Lato;
     line-height: 18px;
