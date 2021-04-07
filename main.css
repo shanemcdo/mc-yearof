@@ -1,0 +1,37 @@
+body{
+    font-family: Arial;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+h1{
+    font-family: Lato;
+    line-height: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+}
+
+h4{
+    font-family: Lato;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+a{
+    color: #c72c00;
+    text-decoration: none;
+    outline: 0;
+}
+
+.page-header{
+    border-top: 1px solid rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding-bottom: 8px;
+    margin: 0 0 20px;
+    padding-top: 8px;
+}
