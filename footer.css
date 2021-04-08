@@ -37,8 +37,19 @@ footer i{
     }
 }
 
-footer .bi-youtube{
-    width: 18px;
-    height: 18px;
-    padding: 5px;
+.youtube_link{
+    font-size: 1.5em;
+    background: rgba(0,0,0,.1);
+    padding: 3px;
+    padding-bottom: 1px;
+    margin: 3px;
+    transition: background, color .6s ease-out;
+    -webkit-transition: background, color .6s ease-out;
+    -moz-transition: background, color .6s ease-out;
+    -o-transition: background, color .6s ease-out;
+}
+
+.youtube_link:hover {
+    background: #F33;
+    color: white;
 }
