@@ -37,3 +37,8 @@ footer i{
     }
 }
 
+footer .bi-youtube{
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+}
