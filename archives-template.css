@@ -76,7 +76,7 @@ ul {
     font-size: 10px;
 }
 .subpages {
-    padding: 20px 0;
+    padding: 6rem 0;
 }
 .card-body {
     padding: 10px;
@@ -85,4 +85,7 @@ ul {
     font-size: 13px;
     color: #CA370D;
     font-family: 'Lato', sans-serif;
+}.card-deck .card {
+    margin: 0;
+    margin-right: 20px;
 }
