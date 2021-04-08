@@ -24,22 +24,14 @@ footer i{
     padding: 3px;
 }
 
-@media only screen and (min-width: 768px){
-    footer input{
-        float: right;
-    }
-
-    .footer-grid{
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
 .youtube_link{
+    display: inline-block;
     font-size: 1.5em;
     background: rgba(0,0,0,.1);
     padding: 3px;
     padding-bottom: 1px;
-    margin: 3px;
+    margin: 10px 3px;
+    margin-bottom: 13px;
     transition: background, color .6s ease-out;
     -webkit-transition: background, color .6s ease-out;
     -moz-transition: background, color .6s ease-out;
@@ -56,3 +48,23 @@ footer i{
     font-size: 10px;
 }
 
+#search-form{
+    display: inline-block;
+}
+
+#search-form *{
+    margin: 0;
+    border: none;
+    color: #C62E00;
+    background: white;
+}
+
+@media only screen and (min-width: 768px){
+    #search-input{
+        float: right;
+    }
+
+    .footer-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
