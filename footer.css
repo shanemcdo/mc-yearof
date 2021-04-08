@@ -23,6 +23,10 @@ footer a{
 .copyright{
 }
 
+footer i{
+    padding: 3px;
+}
+
 @media only screen and (min-width: 768px){
     footer input{
         float: right;
@@ -32,3 +36,4 @@ footer a{
         grid-template-columns: 1fr 1fr;
     }
 }
+
