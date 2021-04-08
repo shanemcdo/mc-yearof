@@ -20,9 +20,6 @@ footer a{
     justify-content: center;
 }
 
-.copyright{
-}
-
 footer i{
     padding: 3px;
 }
@@ -53,3 +50,9 @@ footer i{
     background: #F33;
     color: white;
 }
+
+.copyright{
+    color: #aaa;
+    font-size: 10px;
+}
+
