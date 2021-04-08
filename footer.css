@@ -60,11 +60,20 @@ footer i{
 }
 
 @media only screen and (min-width: 768px){
-    #search-input{
+    #search-form{
         float: right;
     }
 
     .footer-grid{
         grid-template-columns: 1fr 1fr;
     }
+
+    .footer-questions{
+        grid-row: 1 / span 2;
+    }
+
+    .footer-menu{
+        grid-column: 2 / 2;
+    }
+
 }
