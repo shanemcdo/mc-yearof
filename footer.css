@@ -5,6 +5,14 @@ footer{
     padding: 10px;
 }
 
+footer h3{
+    font-size: 14px !important;
+    font-style: normal !important;
+    line-height: 18px !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+}
+
 footer a{
     color: inherit;
 }
