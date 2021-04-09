@@ -21,9 +21,6 @@
     }
 }
 @media (min-width: 992px) {
-    html {
-        padding: 0 20%;
-    }
     .navbar {
         background-color: #FFFFFF;
     }
