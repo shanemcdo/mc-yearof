@@ -35,6 +35,20 @@ label{
     box-sizing: border-box;
 }
 
-textarea{
+.contact-grid textarea{
     height: 197px;
+}
+
+#email:invalid ~ #email-error-message{
+    display: block;
+}
+
+#email:placeholder-shown ~ #email-error-message{
+    display: none !important;
+}
+
+#email-error-message{
+    font-size: 10px;
+    font-weight: bold;
+    display: none;
 }

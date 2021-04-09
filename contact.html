@@ -33,12 +33,13 @@
                 <div>
                     <h3>Please contact us via the form below.</h3>
                     <form accept-charset="utf-8">
-                        <label>Name:<span class="red-text">*</span></label>
-                        <input type="text" name="name"/input> 
-                        <label>Email:<span class="red-text">*</span></label>
-                        <input type="text" name="email"/input> 
+                        <label for="name">Name:<span class="red-text">*</span></label>
+                        <input type="text" name="name" id="name"/> 
+                        <label for="email">Email:<span class="red-text">*</span></label>
+                        <input type="email" name="email" id="email" pattern="\w+@\w+\.\w+" placeholder="" required/> 
+                        <p id='email-error-message' class="red-text">Please enter a valid email address.</p>
                         <label>Message:<span class="red-text">*</span></label>
-                        <textarea name="message"></textarea> 
+                        <textarea name="message" id="message"></textarea> 
                         <button>Send Email</button>
                     </form>
                 </div>
