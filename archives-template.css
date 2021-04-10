@@ -2,6 +2,9 @@
     .content {
         display: block;
     }
+    .dropdown-divider {
+        display: block;
+    }
 }
 @media (min-width: 992px) {
     .content {
@@ -16,7 +19,7 @@ body {
 a {
     color: #CA370D;
 }
-ul {
+.main ul {
     padding: 0;
     margin-left: 20px;
 }
@@ -36,9 +39,6 @@ ul {
 }
 .subtitle {
     margin: 0 0 10px;
-}
-.dropdown-divider {
-    display: block;
 }
 .main {
     display: flex;
