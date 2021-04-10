@@ -9,9 +9,6 @@
         font-family: Arial, sans-serif;
     }
 }
-html {
-    padding: 0 20%;
-}
 body {
     font-family: 'Lato', sans-serif;
     font-size: 12px;
@@ -26,6 +23,9 @@ ul {
 .page-header {
     padding: 8px 0;
     border-top: 1px solid #E6E6E6;
+}
+.subpage-header {
+    padding: 8px 0;
 }
 .entry-title {
     line-height: 20px;
@@ -53,6 +53,7 @@ ul {
 }
 .sidebar {
     width: 50%;
+    max-width: 300px;
     padding-left: 15px;
 }
 .post-margin {

@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="../.." target="">
 
     <!-- Lato Font Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,17 +14,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- navbar.css -->
-    <link rel="stylesheet" href="../../navbar.css">
+    <link rel="stylesheet" href="./navbar.css">
+
+    <!-- footer.css -->
+    <link rel="stylesheet" href="./footer.css">
 
     <!-- archives-template.css -->
-    <link rel="stylesheet" href="./subpage.css">
+    <link rel="stylesheet" href="./archives/subpages/subpage.css">
 
     <!-- FontAwesome 6 -->
-    <link rel="stylesheet" href="../../css/all.css">
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!-- icons -->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <!-- include html js -->
+    <script src="./include_html.js" defer></script>
 
     <title>THE YEAR OF</title>
   </head>
   <body>
+      <div include-html="./header.html"></div>
+      <div class="container">
     <div class="main">
       <div class="content">
         <div class="col1">
@@ -44,14 +57,14 @@
             </div>
             <div class="subpage-header">
                 <a type="button" class="btn btn-light disabled"><i class="fas fa-caret-left"></i></i> Previous Post</a>
-                <a href="./arts-as-self-expression-social-agent.html" type="button" class="btn btn-light ml-auto">Next Post <i class="fas fa-caret-right"></i></i></a>
+                <a href="./archives/subpages/arts-as-self-expression-social-agent.html" type="button" class="btn btn-light ml-auto">Next Post <i class="fas fa-caret-right"></i></i></a>
             </div>
         </div>
         <div class="sidebar">
           <h1 class="entry-title">RECENT POSTS</h1>
           <div class="post-margin">
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/International_wellness-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/International_wellness-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Wellness: An International Perspective</a>
                 <p class="thumb-subtitle"> April 30, 2016</p>
@@ -59,7 +72,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-military-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-military-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">“Coming Back”: Military Veterans Transitioning Home & How Civilians Can Support Them</a>
                 <p class="thumb-subtitle"> April 16, 2016</p>
@@ -67,7 +80,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-gotsis-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-gotsis-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Living, Loving, Dying in Games and Virtual Reality</a>
                 <p class="thumb-subtitle"> April 7, 2016</p>
@@ -75,7 +88,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-happiness-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-happiness-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">How Do You Get To Be Happy? Practice, Practice, Practice</a>
                 <p class="thumb-subtitle"> April 2, 2016</p>
@@ -83,7 +96,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-save_a_life-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-save_a_life-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Save a Life through Hope and Understanding</a>
                 <p class="thumb-subtitle"> March 29, 2016</p>
@@ -91,7 +104,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/YOWSex-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/YOWSex-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Let’s Talk About Sex</a>
                 <p class="thumb-subtitle"> March 18, 2016</p>
@@ -99,7 +112,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/YOWEatingDisorder-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/YOWEatingDisorder-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">The Reality of Eating Disorders</a>
                 <p class="thumb-subtitle"> February 29, 2016</p>
@@ -107,7 +120,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-pride-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-pride-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">PRIDE: Parade, Prom, Community</a>
                 <p class="thumb-subtitle"> February 25, 2016</p>
@@ -115,7 +128,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-finance-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-finance-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Personal Financial Success</a>
                 <p class="thumb-subtitle"> February 12, 2016</p>
@@ -123,7 +136,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-stigmafree-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-stigmafree-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Stigmafree: by NAMI In Our Own Voice, and NAMI on Campus Moorpark College</a>
                 <p class="thumb-subtitle"> November 30, 2015</p>
@@ -131,7 +144,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-artistic-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-artistic-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Artistic Wellness and Self-Preservation: Love’s Longevity in Cutie & the Boxer</a>
                 <p class="thumb-subtitle"> November 30, 2015</p>
@@ -139,7 +152,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/yow-animal-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/yow-animal-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Promoting Animal Wellness Through Behavior Management</a>
                 <p class="thumb-subtitle"> November 30, 2015</p>
@@ -147,7 +160,7 @@
             </div>
             <div class="dropdown-divider"></div>
             <div class="recent-post">
-              <img class="thumb-img" src="../archive-images/sidebar-thumbnails/YOW-financial_wellness-80x50.jpg">
+              <img class="thumb-img" src="./archives/archive-images/sidebar-thumbnails/YOW-financial_wellness-80x50.jpg">
               <div class="thumb-text">
                 <a href="#" class="thumb-title">Investing in Yourself: Financial Literacy</a>
                 <p class="thumb-subtitle"> November 4, 2015</p>
@@ -158,6 +171,8 @@
         </div>
       </div>
     </div>
+      </div>
+      <div include-html="./footer.html"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
