@@ -16,7 +16,7 @@ body {
 a {
     color: #CA370D;
 }
-ul {
+.main ul {
     padding: 0;
     margin-left: 20px;
 }
@@ -39,7 +39,7 @@ ul {
 .subtitle {
     margin: 0 0 10px;
 }
-.dropdown-divider {
+.main .dropdown-divider {
     display: block;
 }
 .main {
@@ -135,6 +135,6 @@ ul {
     padding: 30px 0;
     display: flex;
 }
-li {
+.main li {
     margin-bottom: 5px;
 }
