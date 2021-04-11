@@ -2,15 +2,15 @@
     .content {
         display: block;
     }
+    .dropdown-divider {
+        display: block;
+    }
 }
 @media (min-width: 992px) {
     .content {
         display: flex;
         font-family: Arial, sans-serif;
     }
-}
-html {
-    padding: 0 20%;
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -19,13 +19,16 @@ body {
 a {
     color: #CA370D;
 }
-ul {
+.main ul {
     padding: 0;
     margin-left: 20px;
 }
 .page-header {
     padding: 8px 0;
     border-top: 1px solid #E6E6E6;
+}
+.subpage-header {
+    padding: 8px 0;
 }
 .entry-title {
     line-height: 20px;
@@ -36,9 +39,6 @@ ul {
 }
 .subtitle {
     margin: 0 0 10px;
-}
-.dropdown-divider {
-    display: block;
 }
 .main {
     display: flex;
@@ -53,6 +53,7 @@ ul {
 }
 .sidebar {
     width: 50%;
+    max-width: 300px;
     padding-left: 15px;
 }
 .post-margin {
