@@ -1,6 +1,7 @@
 @media (max-width: 992px) {
     .navbar {
         background-color: #F2F2F2;
+        width: 100%;
     }
     .navbar-nav {
         padding: 10px;
