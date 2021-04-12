@@ -1,0 +1,107 @@
+@media (max-width: 992px) {
+    .content {
+        display: block;
+    }
+    .dropdown-divider {
+        display: block;
+    }
+}
+@media (min-width: 992px) {
+    .content {
+        display: flex;
+        font-family: Arial, sans-serif;
+    }
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+}
+a {
+    color: #CA370D;
+}
+.main ul {
+    padding: 0;
+    margin-left: 20px;
+}
+.page-header {
+    padding: 8px 0;
+}
+.subpage-header {
+    padding: 8px 0;
+}
+.entry-title {
+    line-height: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.subtitle {
+    margin: 0 0 10px;
+}
+.main {
+    display: flex;
+    margin-top: 30px;
+}
+.top {
+    display: flex;
+    height: 275px;
+}
+.main-description {
+    width: 100%;
+}
+.col1 {
+    width: 60%;
+}
+.side {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+}
+.recent-post {
+    display: flex;
+    padding-top: 6px;
+}
+.thumb-img {
+    padding: 10px 10px 10px 0;
+}
+.thumb-title {
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+}
+.thumb-subtitle {
+    margin: 0;
+    color: #777777;
+    font-size: 10px;
+}
+.subpages {
+    padding: 4rem 0;
+}
+.card {
+    max-width: 250px;
+    border: none;
+}
+.card-body {
+    padding: 10px;
+}
+.card-title {
+    font-size: 13px;
+    color: #CA370D;
+    font-family: 'Lato', sans-serif;
+}
+.card-deck .card {
+    margin: 0;
+    margin-right: 20px;
+}
+#search-form {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    width: 233px;
+    margin: 20px 0;
+}
+#search-input {
+    width: 210px;
+    outline: none;
+}
