@@ -2,6 +2,24 @@
     .content {
         display: block;
     }
+    .top {
+        display: block !important;
+    }
+    .invisible {
+        justify-content: center !important;
+        display: none !important;
+    }
+    .archive-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-description {
+        padding-top: 40px !important;
+    }
+    .sidebar {
+        padding-bottom: 40px;
+    }
 }
 @media (min-width: 992px) {
     .content {
@@ -52,8 +70,8 @@ a {
     padding: 0px 40px 10px 40px;
 }
 .sidebar {
-    width: 50%;
     max-width: 300px;
+    min-width: 280px;
     padding-left: 15px;
 }
 .post-margin {
@@ -65,6 +83,7 @@ a {
 }
 .thumb-img {
     padding: 10px 10px 10px 0;
+    max-height: 70px;
 }
 .thumb-title {
     margin: 0;
