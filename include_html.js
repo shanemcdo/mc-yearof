@@ -4,7 +4,6 @@ function include_html(){
         const element = elements[i];
         const file_name = element.getAttribute('include-html');
         if(file_name){
-            console.log(file_name);
             xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4) {
