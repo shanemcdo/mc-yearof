@@ -1,0 +1,7 @@
+.main-description img{
+    margin: 10px;
+}
+
+.main-description img:nth-child(5){
+    float: right;
+}
