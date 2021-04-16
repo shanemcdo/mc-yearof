@@ -57,8 +57,8 @@ a {
     padding: 0px 40px 10px 0px;
 }
 .sidebar {
-    width: 50%;
     max-width: 300px;
+    min-width: 280px;
     padding-left: 15px;
 }
 .post-margin {
