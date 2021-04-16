@@ -8,6 +8,10 @@
         display: flex;
         font-family: Arial, sans-serif;
     }
+    .main-description {
+        width: 100%;
+        padding: 0px 40px 10px 0px;
+    }
 }
 body {
     font-family: 'Lato', sans-serif;
@@ -25,6 +29,7 @@ a {
     border-top: 1px solid #E6E6E6;
 }
 .subpage-header {
+    width: 100%;
     padding: 8px 0;
     display: flex;
 }
@@ -51,10 +56,6 @@ a {
 }
 .top {
     display: flex;
-}
-.main-description {
-    width: 100%;
-    padding: 0px 40px 10px 0px;
 }
 .sidebar {
     max-width: 300px;
@@ -138,9 +139,12 @@ a {
 .main li {
     margin-bottom: 5px;
 }
-
 .poster{
   padding: 0px 20px 10px 0px;
   width:197px;
   height:300px;
+  float: left;
+}
+.youtube {
+    width: 100%;
 }
