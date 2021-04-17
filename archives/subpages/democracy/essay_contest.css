@@ -1,0 +1,17 @@
+.text-centered{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+table, tr, td{
+    padding: 10px;
+}
+
+table{
+    margin: 40px;
+}
+
+tr:nth-child(even){
+    background: rgba(0, 0, 0, 0.03);
+}
