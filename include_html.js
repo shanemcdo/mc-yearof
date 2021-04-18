@@ -1,19 +1,15 @@
 function include_html(){
-    let elements = document.getElementsByTagName('*');
-    for(let i = 0; i < elements.length; i++){
-        const element = elements[i];
-        const file_name = element.getAttribute('include-html');
-        if(file_name){
-            xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function() {
-                if (this.readyState == 4) {
-                    if(this.status == 200)
-                        element.insertAdjacentHTML('afterend', this.responseText);
-                    element.remove();
-                }
-            }
-            xhttp.open("GET", file_name, true);
-            xhttp.send();
+    let elements = document.getElementsByTagName('*'); // get all tags
+    for(let i = 0; i < elements.length; i++){ // cycle through elements
+        const element = elements[i]; // save the current element
+        const file_name = element.getAttribute('include-html'); // get the filename
+        if(file_name){ // if this tag has the include-html attribute as a truthy value
+            fetch(file_name) // get the file
+                .then(res=>res.text()) // convert it to text
+                .then(res=>{
+                    element.insertAdjacentHTML('afterend', res); // insert it after the element
+                    element.remove(); // delete the element
+                });
         }
     }
 }
