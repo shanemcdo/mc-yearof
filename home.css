@@ -26,6 +26,7 @@ a {
 }
 .page-header {
     padding: 8px 0;
+    padding-top: 0;
 }
 .subpage-header {
     padding: 8px 0;
@@ -42,7 +43,6 @@ a {
 }
 .main {
     display: flex;
-    margin-top: 30px;
 }
 .top {
     display: flex;
@@ -55,9 +55,10 @@ a {
     width: 60%;
 }
 .side {
-    width: 100%;
+    min-width: 200px;
     max-width: 350px;
     padding: 20px;
+    padding-top: 0;
 }
 .recent-post {
     display: flex;
