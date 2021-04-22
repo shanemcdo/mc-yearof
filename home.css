@@ -18,6 +18,12 @@
     .then-now {
         padding: 0 !important;
     }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
 }
 @media (min-width: 992px) {
     .content {
@@ -158,4 +164,9 @@ a {
 }
 .col-md-4 {
     padding: 0;
+}
+.carousel-btn-bg {
+    background-color: white;
+    width: 35px;
+    height: 75px;
 }
