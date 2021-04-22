@@ -5,6 +5,25 @@
     .dropdown-divider {
         display: block;
     }
+    .col1 {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .card {
+        max-width: none !important; 
+    }
+    .top {
+        display: none !important;
+    }
+    .then-now {
+        padding: 0 !important;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
 }
 @media (min-width: 992px) {
     .content {
@@ -26,15 +45,16 @@ a {
 }
 .page-header {
     padding: 8px 0;
+    padding-top: 0;
 }
 .subpage-header {
     padding: 8px 0;
 }
 .entry-title {
     line-height: 20px;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 10px;
 }
 .subtitle {
@@ -42,22 +62,29 @@ a {
 }
 .main {
     display: flex;
-    margin-top: 30px;
 }
 .top {
     display: flex;
+    width: 100%;
     height: 275px;
+}
+.then-now {
+    min-width: 200px;
+    max-width: 350px;
+    padding: 20px;
+    padding-top: 0;
 }
 .main-description {
     width: 100%;
 }
 .col1 {
-    width: 60%;
+    width: 70%;
 }
 .side {
-    width: 100%;
+    min-width: 200px;
     max-width: 350px;
     padding: 20px;
+    padding-top: 0;
 }
 .recent-post {
     display: flex;
@@ -75,9 +102,6 @@ a {
     margin: 0;
     color: #777777;
     font-size: 10px;
-}
-.subpages {
-    padding: 4rem 0;
 }
 .card {
     max-width: 250px;
@@ -104,4 +128,45 @@ a {
 #search-input {
     width: 210px;
     outline: none;
+}
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+.col-md-4 {
+    padding: 0;
+}
+.carousel-btn-bg {
+    background-color: white;
+    width: 35px;
+    height: 75px;
 }
