@@ -164,7 +164,7 @@ a {
   transform: translateX(0);
 }
 .col-md-4 {
-    padding: 0;
+    padding: 0 10px;
 }
 .carousel-btn-bg {
     background-color: white;
