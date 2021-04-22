@@ -36,7 +36,7 @@
     .navbar-nav .nav-item:hover .nav-link {
         color: #CA370D;
     }
-    .dropdown-divider {
+    ul > .dropdown-divider {
         margin: 2px 0;
         display: none;
     }
