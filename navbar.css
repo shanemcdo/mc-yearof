@@ -68,9 +68,6 @@
     .dropdown-item:hover {
         color: #CA370D;
     }
-    .dropdown-toggle::after {
-        display: none;
-    }
     .animate {
         animation-duration: 0.3s;
         -webkit-animation-duration: 0.3s;
