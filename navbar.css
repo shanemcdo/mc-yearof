@@ -13,9 +13,6 @@
         margin: 0px 0;
         display: block;
     }
-    .active {
-        background-color: #E6E6E6;
-    }
     .nav-link {
         padding: 10px 15px !important;
     }
