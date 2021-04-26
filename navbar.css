@@ -1,16 +1,17 @@
 @media (max-width: 992px) {
     .navbar {
         background-color: #F2F2F2;
+        width: 100%;
     }
     .navbar-nav {
         padding: 10px;
     }
+    .nav-link {
+        font-size: 1rem;
+    }
     .dropdown-divider {
         margin: 0px 0;
         display: block;
-    }
-    .active {
-        background-color: #E6E6E6;
     }
     .nav-link {
         padding: 10px 15px !important;
@@ -21,9 +22,6 @@
     }
 }
 @media (min-width: 992px) {
-    html {
-        padding: 0 20%;
-    }
     .navbar {
         background-color: #FFFFFF;
     }
@@ -35,7 +33,7 @@
     .navbar-nav .nav-item:hover .nav-link {
         color: #CA370D;
     }
-    .dropdown-divider {
+    ul > .dropdown-divider {
         margin: 2px 0;
         display: none;
     }
