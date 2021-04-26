@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base href="../.." target="">
 
     <!-- Lato Font Family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,42 +15,47 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- navbar.css -->
-    <link rel="stylesheet" href="../../navbar.css">
+    <link rel="stylesheet" href="navbar.css">
 
-    <!-- archives-template.css -->
-    <link rel="stylesheet" href="./subpage.css">
+    <!-- footer.css -->
+    <link rel="stylesheet" href="footer.css">
 
-    <!-- FontAwesome 6 -->
-    <link rel="stylesheet" href="../../css/all.css">
-    
+    <!-- subpage.css -->
+    <link rel="stylesheet" href="archives/subpages/subpage.css">
+
+    <!-- css for icons -->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
     <script src="./include_html.js" defer></script>
     <title>THE YEAR OF</title>
 </head>
     
 <body>
     <div include-html="./header.html"></div>
-    <div class="main">
-        <div class="content">
-            <div class="col1">
-                <div class="subpage-header">
-                    <h1 class="entry-title">Information about the Year of the Economy Events: Fall 2010</h1>
-                    <div class="date ml-auto">
-                        <h2 class="day">15</h2>
-                        <p class="monthYear">SEP 2010</p>
+    <div class="container">
+        <div class="main">
+            <div class="content">
+                <div class="col1">
+                    <div class="subpage-header">
+                        <h1 class="entry-title">Information about the Year of the Economy Events: Fall 2010</h1>
+                        <div class="date ml-auto">
+                            <h2 class="day">15</h2>
+                            <p class="monthYear">SEP 2010</p>
+                        </div>
                     </div>
-                </div>
-                <div class="top">
-                    <div class="main-description">
-                        <p>
+                    <div class="top">
+                        <div class="main-description">
+                            <p>
                             <ul>
                                 <li><b>Brendan Purdy</b> (Mathematics), Faculty Lecture: <i>Economics, Game Theory, and Evolution</i>,  Wednesday September 15 12:00-1:00 pm in the TV studio in the Communications Building.
-                                <br>
-                                <img src="../images/archive-images/picture.jpg">
-                                <ul style="list-style-type:square;">
                                     <br>
-                                    <li>A <a href="http://www.moorparkcollege.edu/sites/default/files/imported/assets/pdf/public_relations/PurdyPresentation.pdf">pdf</a> file of the slides from the presentation.</li>
-                                    <li>The <a href="http://video.moorparkcollege.edu:8080/ramgen/bpurdy1.rm">video</a> archive of the presentation.</li>
-                                </ul>
+                                    <img src="images/archive-images/picture.jpg">
+                                    <ul style="list-style-type:square;">
+                                        <br>
+                                        <li>A <a href="http://www.moorparkcollege.edu/sites/default/files/imported/assets/pdf/public_relations/PurdyPresentation.pdf">pdf</a> file of the slides from the presentation.</li>
+                                        <li>The <a href="http://video.moorparkcollege.edu:8080/ramgen/bpurdy1.rm">video</a> archive of the presentation.</li>
+                                    </ul>
                                 </li>
                                 <br>
                                 <li><b>Timm Herdt</b>, Ventura County Star columnist, On the Budget and Electorate, Wednesday September 22 1:00-2:00 pm in the Academic Center Room 109.</li>
@@ -65,15 +71,16 @@
                                 <br>
                                 <li><b>Kathryn Adams</b> (English), <i>The Earth Cries Our for Human Rights: Haiti Ten Months after the Quake</i>, Wednesday Novemeber 17 12:00-1:00 pm in the TV studio in the Communications Building</li>
                             </ul>
-                        </p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="btn-nav">
+                        <a type="button" href="archives/subpages/information-economy-fall-2010.html" class="btn disabled btn-light"><i class="fas fa-caret-left"></i> Previous Post</a>
+                        <a href="archives/subpages/information-economy-spring-2011.html" type="button" class="btn btn-light ml-auto">Next Post <i class="fas fa-caret-right"></i></a>
                     </div>
                 </div>
-                <div class="btn-nav">
-                    <a type="button" href="information-economy-fall-2010.html" class="btn disabled btn-light"><i class="fas fa-caret-left"></i> Previous Post</a>
-                    <a href="information-economy-spring-2011.html" type="button" class="btn btn-light ml-auto">Next Post <i class="fas fa-caret-right"></i></a>
-                </div>
+                <div include-html="./sidebar.html"></div>
             </div>
-            <div include-html="./sidebar.html"></div>
         </div>
     </div>
     <div include-html="./footer.html"></div>
