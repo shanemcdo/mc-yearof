@@ -1,0 +1,123 @@
+@media (max-width: 992px) {
+    .navbar {
+        background-color: #F2F2F2;
+    }
+    .navbar-nav {
+        padding: 10px;
+    }
+    .dropdown-divider {
+        margin: 0px 0;
+        display: block;
+    }
+    .active {
+        background-color: #E6E6E6;
+    }
+    .nav-link {
+        padding: 10px 15px !important;
+    }
+    .dropdown-item {
+        padding: 10px 15px;
+        padding-left: 0;
+    }
+}
+@media (min-width: 992px) {
+    html {
+        padding: 0 20%;
+    }
+    .navbar {
+        background-color: #FFFFFF;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #444444;
+        transition: 0.4s;
+    }
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item:hover .nav-link {
+        color: #CA370D;
+    }
+    .dropdown-divider {
+        margin: 2px 0;
+        display: none;
+    }
+    .nav-link {
+        padding: 10px 20px !important;
+    }
+    .nav-item {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+    .dropdown-list {
+        list-style-type: none;
+        padding: 0;
+        border: 1px solid #E6E6E6;
+        border-bottom: none;
+    }
+    .dropdown-item {
+        font-size: 12px;
+        font-weight: 700 !important;
+        padding: 10px;
+        margin: 0;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid #E6E6E6;
+    }
+    .dropdown-item:hover {
+        color: #CA370D;
+    }
+    .animate {
+        animation-duration: 0.3s;
+        -webkit-animation-duration: 0.3s;
+        animation-fill-mode: both;
+        -webkit-animation-fill-mode: both;
+    }
+    @keyframes slideIn {
+        0% {
+          transform: translateY(-1rem);
+          opacity: 0;
+        }
+        100% {
+          transform:translateY(0rem);
+          opacity: 1;
+        }
+        0% {
+          transform: translateY(-1rem);
+          opacity: 0;
+        }
+      }
+      
+      @-webkit-keyframes slideIn {
+        0% {
+          -webkit-transform: transform;
+          -webkit-opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0rem);
+          -webkit-opacity: 1;
+        }
+        0% {
+          -webkit-transform: translateY(-1rem);
+          -webkit-opacity: 0;
+        }
+      }
+      .slideIn {
+        -webkit-animation-name: slideIn;
+        animation-name: slideIn;
+        margin: 0;
+        padding: 0;
+      }
+}
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+.dropdown-menu {
+    background-color: #f2f2f2;
+    border: none;
+}
+.show {
+    padding: 0;
+    margin: 0;
+}
+
